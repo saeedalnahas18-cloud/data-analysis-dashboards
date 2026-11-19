@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saeed Alnahas — Data Analyst</title>
+<style>
+  :root { --navy:#0f1e2e; --navy2:#16293d; --gray:#5b6b7a; --olive:#7a8b3d; --blue:#2f6fb2; --bg:#f4f6f8; --card:#ffffff; --text:#1c2b3a; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+  a { color:var(--blue); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .hero { background:var(--navy); color:#fff; padding:64px 24px 56px; text-align:center; }
+  .hero h1 { font-size:42px; letter-spacing:.5px; }
+  .hero .role { font-size:20px; color:#bcd2e8; margin-top:8px; }
+  .hero .role b { color:#fff; }
+  .hero p { max-width:640px; margin:18px auto 0; color:#d7e2ee; }
+  .hero .links { margin-top:26px; }
+  .hero .links a { display:inline-block; margin:0 6px; padding:10px 22px; border-radius:6px; font-weight:600; }
+  .btn-light { background:#fff; color:var(--navy); }
+  .btn-outline { border:1px solid #7fa3c4; color:#fff; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 20px; }
+  .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin:-28px auto 0; max-width:960px; padding:0 20px; }
+  .stat { background:var(--card); border-radius:10px; box-shadow:0 2px 10px rgba(15,30,46,.08); padding:20px 12px; text-align:center; }
+  .stat .num { font-size:28px; font-weight:800; color:var(--navy); }
+  .stat .lbl { font-size:13px; color:var(--gray); margin-top:2px; }
+  section { padding:48px 0 8px; }
+  h2 { font-size:26px; color:var(--navy); margin-bottom:6px; }
+  .sub { color:var(--gray); margin-bottom:22px; }
+  .project { background:var(--card); border-radius:12px; box-shadow:0 2px 12px rgba(15,30,46,.08); padding:28px; margin-bottom:28px; }
+  .project h3 { font-size:21px; color:var(--navy); }
+  .project .tag { display:inline-block; background:#eef3ea; color:var(--olive); font-size:12px; font-weight:700; padding:3px 10px; border-radius:20px; margin:8px 0 12px; }
+  .kpis { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:16px 0; }
+  .kpi { background:var(--bg); border-radius:8px; padding:14px; }
+  .kpi .v { font-size:19px; font-weight:800; color:var(--navy); }
+  .kpi .k { font-size:12.5px; color:var(--gray); }
+  .shots { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:16px 0; }
+  .shots img { width:100%; border:1px solid #dfe6ec; border-radius:8px; display:block; }
+  .shots figure { margin:0; }
+  .shots figcaption { font-size:12.5px; color:var(--gray); margin-top:6px; }
+  .dl { display:inline-block; background:var(--navy); color:#fff; padding:10px 20px; border-radius:6px; font-weight:600; margin-top:6px; }
+  .dl:hover { color:#fff; }
+  .skills { display:flex; flex-wrap:wrap; gap:10px; }
+  .skills span { background:var(--navy2); color:#fff; padding:8px 16px; border-radius:20px; font-size:14px; }
+  .steps { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+  .step { background:var(--card); border-radius:10px; box-shadow:0 2px 10px rgba(15,30,46,.06); padding:18px; }
+  .step .n { font-size:22px; font-weight:800; color:var(--olive); }
+  .step h4 { color:var(--navy); margin:6px 0 4px; }
+  .step p { font-size:14px; color:var(--gray); }
+  .note { background:#fbf7e8; border:1px solid #e5d9a8; border-radius:8px; padding:14px 18px; font-size:14px; color:#6b5d1f; margin-top:8px; }
+  footer { background:var(--navy); color:#bcd2e8; text-align:center; padding:36px 20px; margin-top:56px; }
+  footer a { color:#fff; font-weight:600; margin:0 10px; }
+  @media (max-width:700px){ .stats{grid-template-columns:repeat(2,1fr);} .kpis{grid-template-columns:1fr;} .shots{grid-template-columns:1fr;} .steps{grid-template-columns:1fr 1fr;} .hero h1{font-size:32px;} }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>Saeed Alnahas</h1>
+  <p class="role">Data Analyst &mdash; <b>Excel &middot; Power Query &middot; Power BI</b></p>
+  <p>I turn messy business data into dashboards people actually use. Every number below is a live formula, not a typed value.</p>
+  <div class="links">
+    <a class="btn-light" href="https://github.com/saeedalnahas18-cloud/data-analysis-dashboards">GitHub &mdash; data-analysis-dashboards</a>
+    <a class="btn-outline" href="https://www.linkedin.com/in/saeed-alnahas">LinkedIn</a>
+    <a class="btn-outline" href="mailto:saeedalnahas18@gmail.com">Email</a>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="stat"><div class="num">2</div><div class="lbl">Dashboard projects</div></div>
+  <div class="stat"><div class="num">4</div><div class="lbl">Interactive dashboards</div></div>
+  <div class="stat"><div class="num">1,001</div><div class="lbl">Orders analysed</div></div>
+  <div class="stat"><div class="num">100%</div><div class="lbl">Live formulas</div></div>
+</div>
+
+<div class="wrap">
+
+<section>
+  <h2>Projects</h2>
+  <p class="sub">Two end-to-end Excel dashboard projects &mdash; data cleaning with Power Query, analysis with formulas, and presentation dashboards.</p>
+
+  <article class="project">
+    <h3>Online Store Sales Dashboard</h3>
+    <span class="tag">Excel &middot; Power Query &middot; Jan&ndash;Mar</span>
+    <p>Sales data for an online store across three branches (Egypt, Saudi Arabia, UAE), cleaned and consolidated from monthly files, product lists and customer records into one workbook with two dashboards.</p>
+    <div class="kpis">
+      <div class="kpi"><div class="v">1,001</div><div class="k">Orders (Jan&ndash;Mar)</div></div>
+      <div class="kpi"><div class="v">20,734,230.54</div><div class="k">Net sales after 2% member discount</div></div>
+      <div class="kpi"><div class="v">10,345,068.66</div><div class="k">Top branch: Saudi Arabia (49.9%)</div></div>
+    </div>
+    <div class="shots">
+      <figure><a href="images/online-store-dashboard1-sales.png"><img src="images/online-store-dashboard1-sales.png" alt="Online Store sales dashboard"></a><figcaption>Dashboard 1 &mdash; Sales by branch, month, product line and payment</figcaption></figure>
+      <figure><a href="images/online-store-dashboard2-customers.png"><img src="images/online-store-dashboard2-customers.png" alt="Online Store customers dashboard"></a><figcaption>Dashboard 2 &mdash; Customers, membership and satisfaction</figcaption></figure>
+    </div>
+    <a class="dl" href="online-store/online-store-dashboards.xlsx">Download workbook (.xlsx)</a>
+  </article>
+
+  <article class="project">
+    <h3>Pharma Sales Dashboard 2019&ndash;2020</h3>
+    <span class="tag">Excel &middot; Power Query &middot; DAX-ready</span>
+    <p>Two years of pharmaceutical sales (230 records) rebuilt from raw, comma-joined source files into a clean model with year selector, channel and product breakdowns, and supervisor / representative performance.</p>
+    <div class="kpis">
+      <div class="kpi"><div class="v">1,043,124</div><div class="k">2019 total sales</div></div>
+      <div class="kpi"><div class="v">1,171,833</div><div class="k">2020 total sales (+128,709)</div></div>
+      <div class="kpi"><div class="v">Eman Shaker</div><div class="k">Top supervisor, both years</div></div>
+    </div>
+    <div class="shots">
+      <figure><a href="images/pharma-dashboard1-sales.png"><img src="images/pharma-dashboard1-sales.png" alt="Pharma sales dashboard"></a><figcaption>Dashboard 1 &mdash; Sales by year, quarter, channel and product</figcaption></figure>
+      <figure><a href="images/pharma-dashboard2-staff.png"><img src="images/pharma-dashboard2-staff.png" alt="Pharma staff dashboard"></a><figcaption>Dashboard 2 &mdash; Supervisor and representative performance</figcaption></figure>
+    </div>
+    <a class="dl" href="pharma-sales/pharma-sales-dashboards.xlsx">Download workbook (.xlsx)</a>
+  </article>
+
+  <p class="note">Both projects are course projects built from provided data files. Every dashboard number is a live Excel formula, and data quirks found during cleaning are documented in each workbook&rsquo;s README sheet and in the repository README.</p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <p class="sub">What each project is built on.</p>
+  <div class="skills">
+    <span>Advanced Excel</span><span>Power Query</span><span>Power BI</span><span>DAX</span><span>Data cleaning</span><span>KPI dashboards</span><span>PivotTables &amp; charts</span><span>Data modelling</span>
+  </div>
+</section>
+
+<section>
+  <h2>How I build a dashboard</h2>
+  <p class="sub">The same four steps, every time.</p>
+  <div class="steps">
+    <div class="step"><div class="n">1</div><h4>Understand</h4><p>What decision must this dashboard answer?</p></div>
+    <div class="step"><div class="n">2</div><h4>Clean</h4><p>Power Query: fix formats, unify codes, remove duplicates.</p></div>
+    <div class="step"><div class="n">3</div><h4>Model</h4><p>One clean data table, lookup tables, live formulas only.</p></div>
+    <div class="step"><div class="n">4</div><h4>Present</h4><p>KPIs first, charts that answer the question, nothing extra.</p></div>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <p>Saeed Alnahas &mdash; Data Analyst</p>
+  <p style="margin-top:10px;">
+    <a href="https://www.linkedin.com/in/saeed-alnahas">LinkedIn</a>
+    <a href="mailto:saeedalnahas18@gmail.com">saeedalnahas18@gmail.com</a>
+    <a href="https://github.com/saeedalnahas18-cloud/data-analysis-dashboards">GitHub</a>
+  </p>
+</footer>
+
+</body>
+</html>
